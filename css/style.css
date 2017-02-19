@@ -1,0 +1,243 @@
+/* Adil */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#mainHeader {
+    width: 100%;
+    height: 831px;
+    background-image: url(../images/background-01.jpg);
+    background-position: center;
+}
+
+#mainHeader #hdr {
+    width: 978px;
+    margin: 0 auto;
+}
+
+#mainHeader #scl {
+    color: white;
+}
+
+#mainHeader #scl .phemail {
+    margin-left: -40px;
+}
+
+#mainHeader #hdr #scl img {
+    width: 12px;
+}
+
+#mainHeader #hdr #scl ul li {
+    display: inline-block;
+}
+
+#mainHeader #hdr #scl ul li img {
+    margin-right: 10px;
+}
+
+#mainHeader #hdr #scl .social img {}
+
+#mainHeader #header {
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .65);
+    height: 74px;
+    color: white;
+}
+
+#mainHeader #header .name {
+    margin-left: 10px;
+}
+
+#mainHeader #header .nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#mainHeader #slider {
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#mainHeader #slider div {
+    width: calc(100%/2);
+    height: 293px;
+}
+
+#mainHeader #slider .fringilla {
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, .75) 50%);
+}
+
+#mainHeader #slider .fringilla a {
+    color: white;
+    background: #BD9969;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#mainHeader #photos {
+    background: rgba(0, 0, 0, .65);
+    height: 184px;
+    margin-top: 100px;
+}
+
+
+/* Adil */
+
+
+/* Eli */
+
+#body {
+    margin: 0 auto;
+    width: 100%;
+    /*height: 540px;*/
+    background: url(../photo/pilota1.jpg) no-repeat;
+    /*background-size:  100% 540px;*/
+}
+
+#rightimg {
+    width: 50%;
+    float: right;
+}
+
+.army {
+    /*width: 50%;*/
+    height: 175px;
+    /*float: right;*/
+    background-color: #494240;
+}
+
+.royal_navy {
+    /*width: 50%;*/
+    height: 175px;
+    /*float: right;*/
+    background-color: #14253A;
+}
+
+.royal_airforce {
+    /*width: 50%;*/
+    height: 175px;
+    /*float: right;*/
+    background-color: #0F2863;
+}
+
+#pilot .army .logo1 img {
+    padding: 50px 30px;
+}
+
+#pilot .royal_navy img {
+    padding: 50px 30px;
+}
+
+#pilot .royal_airforce img {
+    padding: 50px 30px;
+}
+
+#pilot .army .logo1 h2 {}
+
+
+/* Eli*/
+
+/*Elxan*/
+html,body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background:url(../photos/background.jpg) no-repeat ;
+	background-size: cover;
+	font-size: arial;
+
+}
+.wrapper{
+ width: 960px;
+ margin: 0 auto;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+h3{
+	color:white;
+	margin:  40px ;
+}
+.clear{
+	clear:both;
+}
+/*menu start*/
+#contact>.wrapper>.menu{
+	height: 100px;
+	background: black;
+     width: 978px;
+}
+
+.register{
+margin-right:80px;
+margin-top: 30px;
+}
+.menu{
+	-border-radius:5px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:5px;
+
+}
+input[type=text],select{
+	height: 30px;
+	width: 250px;
+	-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+input[type=email],select{
+	width: 250px;
+	height: 30px;
+    -border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+input[type=submit],select{
+	background:#bd9969;
+	height: 35px;
+	width: 150px;
+	border:none;
+}
+/*menu end*/
+
+.location{
+	width:100%;
+}
+h4{
+	color: #ddd;
+}
+.location p{
+color:white;
+}
+
+.adress{
+	width: 33.3%;
+}
+.date{
+	width: 33.3%;
+}
+.info{
+	width: 33.3%;
+}
+/*Elxan*/
